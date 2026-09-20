@@ -35,11 +35,12 @@ revealEls.forEach(el => {
 const slides = [...document.querySelectorAll('.review-slide')];
 const dots = document.querySelector('.review-dots');
 let reviewIndex = 0;
+const reviewLabel = document.documentElement.lang === 'en' ? 'Go to review' : 'Vai alla recensione';
 if (slides.length && dots) {
   slides.forEach((_, i) => {
     const dot = document.createElement('button');
     dot.className = 'review-dot' + (i === 0 ? ' active' : '');
-    dot.setAttribute('aria-label', `Vai alla recensione ${i + 1}`);
+    dot.setAttribute('aria-label', `${reviewLabel} ${i + 1}`);
     dot.addEventListener('click', () => showReview(i));
     dots.appendChild(dot);
   });
