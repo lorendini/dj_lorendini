@@ -24,3 +24,5 @@ Positioning update: the site no longer presents  as the service area; wedding/ev
 Geographic positioning update: base in ; work mainly across Tuscany and neighboring regions, with longer-distance travel considered for weddings and events.
 
 Language version: added English page (en.html) with an IT/EN selector in the header; both versions share the same assets and layout.
+
+Google Ads contact destination: /richiesta-ricevuta/ (folder index page). The page offers WhatsApp and email contact buttons; the main site contact CTA links to this page.
